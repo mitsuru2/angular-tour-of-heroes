@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-tour-of-heroes-6d1a8": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "angular-tour-of-heroes-6d1a8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-tour-of-heroes-6d1a8"
+  }
+}
