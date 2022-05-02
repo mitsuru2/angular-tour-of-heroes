@@ -1,21 +1,21 @@
 import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DashboardComponent } from './dashboard.component';
+import { HeroSearchComponent } from './hero-search.component';
 
-describe('DashboardComponent', () => {
-  let component: DashboardComponent;
-  let fixture: ComponentFixture<DashboardComponent>;
+describe('HeroSearchComponent', () => {
+  let component: HeroSearchComponent;
+  let fixture: ComponentFixture<HeroSearchComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [HttpClientModule],
-      declarations: [DashboardComponent],
+      declarations: [HeroSearchComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DashboardComponent);
+    fixture = TestBed.createComponent(HeroSearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
